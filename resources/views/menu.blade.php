@@ -21,10 +21,11 @@
     </header>
     <main>
     <div class="main-container">
-    @foreach ($data as $item)
-<div class="block">
+    @foreach ($data->take(2) as $item)
+    <div class="block">
+
         <h1>{{$item -> title}}</h1>
-        <!-- <img src="1.jpg" alt="" srcset=""> -->
+        <img src="{{$item -> image}}" alt="" srcset="">
         <p>{{$item -> descripton}}</p>
         <h3>Как готовят</h3>
         <p>{{$item -> recipe}}</p>

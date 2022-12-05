@@ -21,13 +21,3 @@ Route::get('/reg', function () {
 });
 Route::get('/menu', [PelmeniController::class, 'GetData']);
 
-
-// @foreach ($data as $item)
-// <div class="block">
-//         <h1>{{$item -> title}}</h1>
-//         <!-- <img src="1.jpg" alt="" srcset=""> -->
-//         <p>{{$item -> descripton}}</p>
-//         <h3>Как готовят</h3>
-//         <p>{{$item -> recipe}}</p>
-//     </div>
-// @endforeach

@@ -11,6 +11,8 @@ class PelmeniController extends Controller
   public function GetData() {
 
     $data = DB::table('pelmeni')->get();
+
+
     return view('menu', ['data' => $data]);
   }
 }

@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('pelmeni', function (Blueprint $table) {
             $table->id();
             $table->text('title');
-            $table->text('image')->nullable();
+            $table->string('image')->nullable();
             $table->text('descripton');
             $table->text('recipe');
             $table->timestamps();
