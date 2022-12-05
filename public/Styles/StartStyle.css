@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../Pelmeni.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    padding: 0;
+    font-style: oblique;
+}
+header h1{
+    padding-left: 15px;
+    color:rgb(187, 150, 140);
+}
+
+.header-container{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1900px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+    background-color: #ffffff59;
+
+
+}
+.bt1{
+    display: flex;
+    border-left: solid 1px black;
+}
+
+.bt1 a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+.menu{
+    
+}
+.menu a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+}
+
+main{
+
+}
+.main-container{
+    max-width: 1900px;
+    height: 1000px;
+}
+.main-container{
+    max-width: 100%;
+}
+footer{
+
+}
+.footer-container{
+
+}
